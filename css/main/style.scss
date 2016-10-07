@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+.container-fluid{
+  padding: 0;
+}
+
+#logo{
+  margin: 0px;
+  width: 240px;
+  height: 80px;
+  display: block;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  background: #1FB5AD;
+  h4{
+  	display: inline-block;
+  	color: white;
+  	margin-left: 10px;
+  }
+
+
+}
+
+.menu-barra-vertical{
+	display: inline-block;	
+	background: #1FB5AD;
+	position: relative;
+	float: right;
+	left: 3px;
+	top: 3px;
+	a{
+		span{
+			color: rgba(0,0,0,.3);
+			background: #32D2C9;
+			border: 1px solid #F6F6F6;
+			border-radius: 50%;
+			width: 32px;
+			height: 32px;
+			padding: 8px;
+			font-size: 15px;
+			
+		}
+		span:hover{
+			background: #F6F6F6;
+		}
+	}
+}
+
+header{
+	border: 1px solid pink;
+}
+
+aside{
+	border: 1px solid blue;
+	nav{
+		font-size: 1.1em;
+		ul{
+			list-style: none;
+			padding: 0px;
+			li{
+				border-top: 1px solid #3C3C43;
+				width-left: 100px;
+				padding: 0px;
+				a{
+					display: block;
+					color: #A9ADB7;
+					text-decoration: none;
+					padding: 15px 15px;
+					span{
+						font-size: 1.3em;
+						margin-left: 15px;
+						margin-right: 10px;
+					}
+				}
+			}
+			li:hover{
+				background: #28282E; 
+				a:hover{
+					color: #1FB5AD;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+#main-menu{
+  width: 240px;
+  height: 1000px;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transition: 235ms ease all;
+  -transition: 235ms ease all;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid yellow;
+  display: inline-block;
+  position:absolute;
+}
+
+#nav{
+  width: 100%;
+  height: 100%;
+  background: #32323A;
+  color: #fff;
+  border-right: 1px solid green;
+}
+
+/*Transicion del menu bar vertical*/
+.show-nav{
+  -webkit-transform: translateX(-240px);
+  transform: translateX(-240px);
+  -webkit-transform: translate3d(-240px,0,0);
+  transform: translate3d(-240px,0,0);
+}
+
+#main-contenido{
+	width: 100%;
+	height: 1000px;
+	background: red;
+	position: block;
+	display: inline-block;
+}
+
+/*Transicion del contenido
+#main-content{
+  width: 82.8%;
+  border: 1px solid red;
+  -webkit-transition:all .3 ease-in-out;
+  -moz-transition:all .3s ease-in-out;
+  -o-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out;
+}*/

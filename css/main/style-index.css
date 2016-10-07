@@ -1,0 +1,71 @@
+@import url("background-gradient.css");
+.navbar{
+    background:transparent;
+    padding-top:12px;
+    padding-bottom:10px;
+    color:#fff;
+    border-radius:0;
+    box-shadow:none;
+    border:none;
+}
+.navbar .navbar-brand{
+    font-weight:bold;
+    color:inherit;
+}
+.navbar .navbar-brand:hover{
+    font-weight:bold;
+    color:#ccc;
+}
+.action-button{
+    border:1px solid rgba(255,255,255,0.7);
+    border-radius:20px;
+    color:#ebeff1;
+    box-shadow:none;
+    text-shadow:none;
+    padding:6px 15px;
+    background:transparent;
+    transition:background-color 0.25s;
+    outline:none; 
+}
+.container .action-button:hover{
+    color:#ccc;
+    background:transparent;
+    border:1px solid rgba(255,255,255,0.7);
+    border-radius:20px;
+}
+.container .action-button:active{
+    border:1px solid rgba(255,255,255,0.7);
+    border-radius:20px;
+    color:#ebeff1;
+    box-shadow: 0px 0px 2px #888888;
+    text-shadow:none;
+    padding:6px 15px;
+    background:transparent;
+    transition:background-color 0.25s;
+    outline:none;
+    color: #ebeff1;    
+}
+.navbar .navbar-collapse p .login{
+    text-decoration: none;
+    color:#d9d9d9;
+    margin-right: 20px;
+}
+.navbar .navbar-collapse p .login:hover{
+    color:#fff;
+}
+.navbar-brand-link{
+    color:#ebeff1;  
+
+}
+.navbar-brand-link:hover{
+    color:#ccc;
+    text-decoration: none;
+}
+.navbar .navbar-toggle{
+    border-color:rgba(255,255,255,0.3);
+}
+
+.navbar .navbar-toggle:hover, .header-blue .navbar-toggle:focus{
+    background:none;
+}
+

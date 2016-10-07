@@ -1,0 +1,104 @@
+@import url("background-gradient.css");
+.navbar .navbar-brand{
+    font-weight:bold;
+    color:inherit;
+}
+.navbar{
+    background:transparent;
+    padding-top:12px;
+    padding-bottom:10px;
+    color:#fff;
+    border-radius:0;
+    box-shadow:none;
+    border:none;
+}
+.pyme-login{
+    background-color: #28282e;
+    box-shadow: 0px 0px 5px #28282e;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 6%;
+}
+.form-control:focus {
+    box-shadow: 0px 0px 5px #1FB5AD;
+    outline: 0;
+}
+.pyme-input-edit{
+    border-radius: 0px;
+    margin-top: 20px;
+}
+.pyme-btn-login{
+    border-radius: 20px;
+    color:#fff;
+    padding: 6px 15px 6px 15px;
+    background: transparent;
+    margin-top: 5px;
+}
+.pyme-btn-login:hover{
+    color:#1FB5AD;
+    border: 1px solid #1FB5AD;
+    background: transparent;
+}
+
+.pyme-login .pyme-btn-login:active{
+    border: 1px solid #1FB5AD;
+    border-radius:20px;
+    color:#1FB5AD;
+    box-shadow:none;
+    text-shadow:none;
+    padding:6px 15px;
+    background:transparent;
+}
+.a-old-pw{
+    color:#fff;
+    font-size: 12px;
+}
+.a-old-pw:hover{
+    color:#d9d9d9;
+    text-decoration: none;
+}
+.navbar .navbar-brand{
+    font-weight:bold;
+    color:inherit;
+}
+
+.navbar .navbar-brand:hover{
+    color:#f0f0f0;
+}
+.action-button{
+    border:1px solid rgba(255,255,255,0.7);
+    border-radius:20px;
+    color:#ebeff1;
+    box-shadow:none;
+    text-shadow:none;
+    padding:6px 15px;
+    background:transparent;
+    transition:background-color 0.25s;
+    outline:none; 
+}
+.container .action-button:hover{
+    color:#ebeff1;
+    background:transparent;
+    border:1px solid rgba(255,255,255,0.7);
+    border-radius:20px;
+}
+.navbar-brand-link{
+    color:#ebeff1;  
+
+}
+.navbar-brand-link:hover{
+    color:#ccc;
+    text-decoration: none;
+}
+.pyme-title-login{
+    margin-bottom: 25px;
+}
+@media (max-device-width: 480px) {
+    .pyme-login{
+        background-color:transparent;
+        box-shadow: 0px 0px 0px #28282e;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 5px;
+    }
+}

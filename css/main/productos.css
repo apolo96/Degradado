@@ -1,0 +1,52 @@
+div .card{
+    border: 1px solid #ddd;
+    padding: 0px;
+    width: 232px;
+    margin-bottom: 20px;
+}
+div .card-block{
+    padding: 10px;
+    border-bottom: 3px solid #ddd;
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+}
+div .panel-heading{
+    height: 50px;
+    padding: 15px;
+    font-size: 15px;
+}
+.panel-default > .panel-heading {
+    color: #767676;
+    background-color: #fafafa;
+}
+div .panel .panel-default{
+    background: red;
+    margin-top: 10px;
+}
+img.card-img-top{
+    width: 230px;
+    height: 150px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.btn-default{
+    color:#fff;
+    background-color: #1fb5ad;
+    border-color:#1fb5ad;
+}
+.btn-default:hover{
+    color:#fff;
+    background-color: #1DABA4;
+    border-color:#1DABA4;
+}
+.form-control {
+    border: 1px solid #e2e2e4;
+    box-shadow: none;
+    color: #c2c2c2;
+}
+.form-control:focus {
+    border-color:  #1fb5ad;
+    box-shadow: none;
+}
+
